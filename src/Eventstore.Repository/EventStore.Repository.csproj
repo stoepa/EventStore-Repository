@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <Description>EventRepository for EventStore</Description>
+	  <Copyright>Copyright Theunis van der Stoep</Copyright>
+	  <TargetFrameworks>net5.0</TargetFrameworks>
+	  <AssemblyName>EventStore.EventRepository</AssemblyName>
+	  <PackageId>EventStore.EventRepository</PackageId>
+	  <PackageTags>eventrepository,eventstore,repository</PackageTags>
+	  <SignAssembly>true</SignAssembly>
+	  <Version>0.1.1</Version>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PublishRepositoryUrl>true</PublishRepositoryUrl>
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <EmbedUntrackedSources>true</EmbedUntrackedSources>
+	  <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EventStore.Client.Grpc.Streams" Version="21.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
