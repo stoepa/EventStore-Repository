@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 	  <Description>EventRepository for EventStore</Description>
@@ -8,7 +8,7 @@
 	  <PackageId>EventStore.EventRepository</PackageId>
 	  <PackageTags>eventrepository,eventstore,repository</PackageTags>
 	  <SignAssembly>true</SignAssembly>
-	  <Version>0.1.1</Version>
+	  <Version>0.1.2</Version>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <PublishRepositoryUrl>true</PublishRepositoryUrl>
 	  <IncludeSymbols>true</IncludeSymbols>
